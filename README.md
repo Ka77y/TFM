@@ -25,8 +25,9 @@ Repositorio que almacena todos los Scripts elaborados para el TFM de la Maestrí
 `UpdateTopicDocuments.py` -> Script que actualiza los niveles de tópicos en los documentos con los tópicos asociados.
 `PopulateTestDataset.py` -> Script que agrega documentos al dataset de pruebas.
 **rank_template.json** -> plantilla que se usa para obtener el top k de documentos similares a un documento.
-**log_precision_results_before_1.csv** -> log generado durante el cálculo de la precisión antes de aplicar las asociaciones de tópicos. 
-**log_test_before_1.csv** -> log generado por el Script `NewScriptBefore.py`
+**log_precision_results_before_1.csv** -> log generado durante el cálculo de la precisión antes de aplicar las asociaciones de tópicos.
+**log_test_before_1.csv** -> log generado por el Script
+`NewScriptBefore.py`
 **log_precision_results_after_1.csv** -> log generado durante el cálculo de la precisión después de aplicar las asociaciones de tópicos.
 **log_test_after_1.csv** -> log generado por el Script `NewScriptAfter.py`
 **rules_tender_new_new.csv** -> reglas generadas en el entrenamiento del modelo.
