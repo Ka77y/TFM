@@ -16,22 +16,33 @@ Repositorio que almacena todos los Scripts elaborados para el TFM de la Maestrí
 ## Archivos de la carpeta Training
 
 `Algorithm1.py` -> Script de la implementación del primer algoritmo del modelo de generación de asociación de tópicos.
+
 `Algorithm2.py` -> Script de la implementación del segundo algoritmo del modelo de generación de asociación de tópicos.
+
 `GeneralFunctions.py` -> Script que tiene implementadas las funciones que usan en conjunto el algoritmo 1, algoritmo 2 del modelo y demás Scripts usados en la fase de prueba.
+
 **results_rank_test.json** -> muestra de la estructura JSON que recibe el algoritmo como entrada, desde el sistema de retroalimentación del usuario. 
 
 ## Archivos de la carpeta Test
 
 `NewScriptBefore.py` -> Script que calcula la precisión del sistema antes de aplicar las asociaciones de tópicos.
+
 `NewScriptAfter.py` -> Script que calcula la precisión del sistema después de aplicar las asociaciones de tópicos.
+
 `UpdateTopicDocuments.py` -> Script que actualiza los niveles de tópicos en los documentos con los tópicos asociados.
+
 `PopulateTestDataset.py` -> Script que agrega documentos al dataset de pruebas.
+
 **rank_template.json** -> plantilla que se usa para obtener el top k de documentos similares a un documento.
+
 **log_precision_results_before_1.csv** -> log generado durante el cálculo de la precisión antes de aplicar las asociaciones de tópicos.
-**log_test_before_1.csv** -> log generado por el Script
-`NewScriptBefore.py`
+
+**log_test_before_1.csv** -> log generado por el Script `NewScriptBefore.py`
+
 **log_precision_results_after_1.csv** -> log generado durante el cálculo de la precisión después de aplicar las asociaciones de tópicos.
+
 **log_test_after_1.csv** -> log generado por el Script `NewScriptAfter.py`
+
 **rules_tender_new_new.csv** -> reglas generadas en el entrenamiento del modelo.
  
 # Proceso de ejecución de Scripts
