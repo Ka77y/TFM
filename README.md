@@ -8,7 +8,9 @@ Repositorio que almacena todos los Scripts elaborados para el TFM de la Maestrí
 
 ## Carpetas
 **Scripts** -> Todos los Scripts ejecutados en el entrenamiento y prueba del modelo
+
 **Scripts/Training** -> Scripts ejecutados en la fase de entrenamiento del modelo
+
 **Scripts/Test** -> Scripts ejecutados en la fase de prueba del modelo
 
 ## Archivos de la carpeta Training
