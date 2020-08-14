@@ -1,0 +1,27 @@
+{
+	"dataSource": {
+		"cache": true,
+		"dataFields": {
+			"id": "id",
+			"labels": [
+				"labels_t"
+			],
+			"name": "name_s",
+			"text": [
+				"txt_t"
+			]
+		},
+		"filter": "*:*",
+		"format": "SOLR_CORE",
+		"name": "tbfy",
+		"offset": 0,
+		"size": -1,
+		"url": "http://librairy-repo:8983/solr/documents"
+	},
+	"reference": {
+		"document": {
+			"id": "id"
+		}
+	},
+	"size": 10
+}
