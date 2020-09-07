@@ -4,9 +4,10 @@ Este repositorio contiene el desarrollo de un modelo de clasificación para la r
 
 El modelo de clasificación es un modelo de asociación de tópicos que, a través de la recopilación de la evaluación, de la relevancia entre la similitud de un par de documentos, proporcionada por usuarios; busca mejorar un sistema de recuperación de documentos ya existente.
 
-# Carpetas y archivos
 
-Repositorio que almacena todos los Scripts elaborados para el TFM de la Maestría en Ciencia de Datos de la UPM
+El presente proyecto forma parte del TFM de la Maestría en Ciencia de Datos de la UPM.
+
+# Carpetas y archivos
 
 ## Carpetas
 **Scripts** -> Todos los Scripts ejecutados en el entrenamiento y prueba del modelo
