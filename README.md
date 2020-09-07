@@ -1,9 +1,11 @@
-# Resumen!
+# Intro!
 
-Repositorio que almacena todos los Scripts elaborados para el TFM de la 
-Maestría en Ciencia de Datos de la UPM
+Este repositorio contiene el desarrollo de un modelo de clasificación para la recuperación de documentos. El modelo utiliza datos de entrenamiento, de modo que puede ordenar nuevos documentos acorde con sus grados de relevancia.
+
+El modelo de clasificación es un modelo de asociación de tópicos que, a través de la recopilación de la evaluación, de la relevancia entre la similitud de un par de documentos, proporcionada por usuarios; busca mejorar un sistema de recuperación de documentos ya existente.
 
 # Carpetas y archivos
+
 Repositorio que almacena todos los Scripts elaborados para el TFM de la Maestría en Ciencia de Datos de la UPM
 
 ## Carpetas
